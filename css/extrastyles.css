@@ -1,0 +1,67 @@
+body{
+
+	width:80%;
+	margin:auto;
+}
+/*
+#cover{
+
+	width:80%;
+	margin:auto;
+
+}
+*/
+
+#linkedinlogo{
+
+	width:40px;
+	margin-top: 70px;
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto; 
+
+}
+
+/*#twitterlogo{
+
+	width:40px;
+}
+*/
+#bike{
+
+	width:20px;
+}
+#socialbar{
+	float:left;
+    margin: 0 auto;
+}
+
+.col-centered{
+	
+}
+#social{
+
+
+}
+
+@media(max-width:700px){
+
+	#socialbar{
+		margin-left:40%;
+	}
+
+	#name{
+		margin-top: 60px;
+	}
+
+	#title{
+		text-align: center;
+	}
+
+	#linkedinlogo{
+		display:inline-block;
+		margin-top:0;
+	}
+
+
+}
