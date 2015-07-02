@@ -1,19 +1,9 @@
-body{
-
-	width:80%;
-	margin:auto;
+body {
+	width: 80%;
+	margin: auto;
 }
-/*
-#cover{
 
-	width:80%;
-	margin:auto;
-
-}
-*/
-
-#linkedinlogo{
-
+.toplogo {
 	width:40px;
 	margin-top: 70px;
 	display:inline-block;
@@ -22,45 +12,25 @@ body{
 
 }
 
-/*#twitterlogo{
-
-	width:40px;
-}
-*/
-#bike{
-
-	width:20px;
-}
-#socialbar{
+.socialbar {
 	float:left;
     margin: 0 auto;
 }
 
-.col-centered{
-	
-}
-#social{
-
-
-}
-
-@media(max-width:700px){
-
-	#socialbar{
+@media(max-width: 700px) {
+	.socialbar {
 		margin-left:40%;
 	}
-
-	#name{
-		margin-top: 60px;
+	.name {
+		margin-top: 80px;
 	}
-
-	#title{
+	.title {
 		text-align: center;
 	}
-
-	#linkedinlogo{
+	.toplogo {
 		display:inline-block;
-		margin-top:0;
+		margin-top: 10px;
+		margin-bottom: 20px;
 	}
 
 
