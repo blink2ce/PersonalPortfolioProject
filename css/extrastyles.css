@@ -6,20 +6,21 @@ body {
 .toplogo {
 	width:40px;
 	margin-top: 70px;
-	display:inline-block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto; 
 
 }
 
 .socialbar {
-	float:left;
+	float: left;
     margin: 0 auto;
 }
 
 @media(max-width: 700px) {
 	.socialbar {
-		margin-left:40%;
+		margin-left: 40%;
+		clear: both;
 	}
 	.name {
 		margin-top: 80px;
@@ -28,10 +29,8 @@ body {
 		text-align: center;
 	}
 	.toplogo {
-		display:inline-block;
+		display: inline-block;
 		margin-top: 10px;
 		margin-bottom: 20px;
 	}
-
-
 }
